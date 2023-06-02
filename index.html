@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emoji match Adventures</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div id="container" >
+        <div id="d1"><h1> &#128611 Memory Match Mania &#128609</h1></div>
+        <div id="rule">
+            <p>Discription of Game</p>
+            This game is a memory matching game where you need to find and match pairs of cards. Flip two cards at a time and remember their positions. If the cards have the same emoji, they stay face-up. Otherwise, they flip back down. Your objective is to match all the cards on the board using the fewest moves possible. Keep track of your moves and try to complete the game in the shortest time. Good luck!</div>
+    </div>
+    <div class="game ">
+        <div class="board-container">
+            <div class="board" data-dimension="4"></div>
+            <div class="win">You win!</div>
+        </div>
+        <div class="controls">
+            <button id="s1">Start</button>
+            <div class="stats">
+                <div class="moves">0 Moves</div>
+                <div class="timer">Time : 0 sec</div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
